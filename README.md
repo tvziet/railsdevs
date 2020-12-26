@@ -1,24 +1,7 @@
-# README
+## Build a web for JOBs with Ruby on Rails and VueJs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Notes
+1. Command to change the database of the project
+- If you have used MySQL for the project, you want to change to Postgresql. This command can help you:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    ``rails db:system:change --to=postgresql``
